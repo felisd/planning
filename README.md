@@ -1,6 +1,30 @@
+## PDDL3 solver for temporal and non-temporal planning problems
+
+### How to compile
+
+```
+cd ./tempo-sat-sgplan6
+make
+```
+
+### How to run
+
+After compiling, run `sgplan` in the `tempo-sat-sgplan6` directory.
+
+Usage :
+
+`./sgplan -o [domain_file] -f [problem_file] -out [solution_file] -cputime [max_cpu_time_in_seconds]`
+
+Example:
+
+`./sgplan -o ../demo-domain/domain.pddl -f ../demo-domain/prob01.pddl -out p01.soln -cputime 20`
+
+### Original README
+
 15-887 course project by Carlo Angiuli, Ben Blum, and Michael Sullivan.
 
 Stuff here:
+
 report/ - source for the report
 
 tempo-sat-sgplan6/ - the source for the planner we used, modified to build.
