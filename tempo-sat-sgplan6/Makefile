@@ -45,7 +45,7 @@
 
 TARGET = sgplan
 CFLAGS = -g -Wall -m32
-CFLAGS	= -O3 -DNDEBUG -Wall -m32
+CFLAGS	= -O3 -DNDEBUG -Wall -m32 -std=gnu89
 LIBS	= -lm -lnsl -lsocket
 LIBS	= -lm
 
